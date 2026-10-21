@@ -1,0 +1,27 @@
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "create:andesite_alloy"
+    },
+    "amount": 2
+  },
+  "fluidInput": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "gasInput": {
+    "gas": "asari_mekaddon:palladium_gas",
+    "amount": 1000
+  },
+  "itemOutput": {
+    "item": "create:andesite_casing",
+    "count": 1
+  },
+  "gasOutput": {
+    "gas": "mekanism:water_vapor",
+    "amount": 1000
+  },
+  "energyRequired": 1000,
+  "duration": 100
+}

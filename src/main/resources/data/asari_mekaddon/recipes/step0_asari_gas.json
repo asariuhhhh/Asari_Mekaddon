@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "amount": 1,
+    "gas": "asari_mekaddon:anti_radiation_gas"
+  },
+  "rightInput": {
+    "amount": 1,
+    "gas": "asari_mekaddon:step1_asari_gas"
+  },
+  "output": {
+    "amount": 14,
+    "gas": "asari_mekaddon:step0_asari_gas"
+  }
+}

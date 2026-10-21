@@ -1,0 +1,11 @@
+{
+  "type": "asari_mekaddon:antiprotonicnucleosynthesize",
+  "input": {
+    "amount": 2,
+    "gas": "mekanism:plutonium"
+  },
+  "output": {
+    "amount": 1,
+    "gas": "mekanismelements:americium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    },
+    "amount": 2
+  },
+  "fluidInput": {
+    "fluid": "mekanismelements:xenon",
+    "amount": 666
+  },
+  "gasInput": {
+    "gas": "asari_mekaddon:asari_gas",
+    "amount": 1
+  },
+  "gasOutput": {
+    "gas": "asari_mekaddon:asari_gas",
+    "amount": 4545
+  },
+  "itemOutput" : {
+    "item": "minecraft:nether_star",
+    "count" : 2
+  },
+  "energyRequired": 1000,
+  "duration": 66
+}
+

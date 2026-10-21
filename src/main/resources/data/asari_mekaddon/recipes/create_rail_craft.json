@@ -1,0 +1,27 @@
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "create:zinc_nugget"
+    },
+    "amount": 32
+  },
+  "fluidInput": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "gasInput": {
+    "gas": "asari_mekaddon:palladium_gas",
+    "amount": 1000
+  },
+  "itemOutput": {
+    "item": "create:track",
+    "count": 16
+  },
+  "gasOutput": {
+    "gas": "mekanism:water_vapor",
+    "amount": 1000
+  },
+  "energyRequired": 1000,
+  "duration": 100
+}

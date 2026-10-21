@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:ingot_steel"
+    }
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanismelements:aqua_regia"
+  },
+  "output": {
+    "amount": 100,
+    "gas": "asari_mekaddon:palladium_gas",
+    "chemicalType": "gas"
+  }
+}

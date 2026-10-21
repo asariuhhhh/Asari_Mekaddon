@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="asari_mekaddon"
+version="1.0.0"
+displayName="Asari Mekanism"
+authors="asari"
+description='''
+Asari Mekanism addon.
+'''

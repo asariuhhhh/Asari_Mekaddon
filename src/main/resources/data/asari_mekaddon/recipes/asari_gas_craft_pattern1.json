@@ -1,0 +1,27 @@
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "amount": 5
+  },
+  "fluidInput": {
+    "fluid": "mekanismelements:potassium_hydroxide",
+    "amount": 666
+  },
+  "gasInput": {
+    "gas": "asari_mekaddon:asari_gas",
+    "amount": 666
+  },
+  "itemOutput": {
+    "item": "mekanism:pellet_antimatter",
+    "count": 1
+  },
+  "gasOutput": {
+    "gas": "mekanism:spent_nuclear_waste",
+    "amount": 1000
+  },
+  "energyRequired": 1000,
+  "duration": 100
+}

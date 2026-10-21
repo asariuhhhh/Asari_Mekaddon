@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,active=false": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize"
+    },
+    "facing=north,active=true": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize_active"
+    },
+    "facing=south,active=false": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize",
+      "y": 180
+    },
+    "facing=south,active=true": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize_active",
+      "y": 180
+    },
+    "facing=east,active=false": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize",
+      "y": 90
+    },
+    "facing=east,active=true": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize_active",
+      "y": 90
+    },
+    "facing=west,active=false": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize",
+      "y": -90
+    },
+    "facing=west,active=true": {
+      "model": "asari_mekaddon:block/antiprotonicnucleosynthesize_active",
+      "y": -90
+    }
+  }
+}

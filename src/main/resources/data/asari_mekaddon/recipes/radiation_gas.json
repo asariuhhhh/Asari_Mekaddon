@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:activating",
+  "input": {
+    "gas": "mekanism:spent_nuclear_waste",
+    "amount": 10
+  },
+  "output": {
+    "gas": "asari_mekaddon:anti_radiation_gas",
+    "amount": 1
+  }
+}

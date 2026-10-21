@@ -1,0 +1,13 @@
+{
+  "gas.asari_mekaddon.asari_gas": "超新星注入エーテル",
+  "gas.asari_mekaddon.step0_asari_gas": "超新星エーテル",
+  "gas.asari_mekaddon.step1_asari_gas": "ハイパーポロニウム",
+  "gas.asari_mekaddon.anti_radiation_gas": "放射線相殺ガス",
+  "gas.asari_mekaddon.palladium_gas": "パラジウム",
+  "block.asari_mekaddon.test_g": "魔改造された化学酸化機",
+  "container.asari_mekaddon.test_g": "魔改造型化学酸化機",
+  "description.asari_mekaddon.test_g" : "桁違いな酸化機",
+  "block.asari_mekaddon.antiprotonicnucleosynthesize" : "陽太陽中性子反応機",
+  "container.asari_mekaddon.antiprotonicnucleosynthesize" : "陽太陽中性子反応機"
+
+}
