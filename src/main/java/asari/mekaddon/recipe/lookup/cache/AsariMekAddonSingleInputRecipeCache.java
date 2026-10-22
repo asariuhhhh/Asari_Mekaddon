@@ -4,8 +4,6 @@ import asari.mekaddon.recipe.AsariMekAddonRecipeType;
 import mekanism.api.functions.ConstantPredicates;
 import mekanism.api.recipes.MekanismRecipe;
 import mekanism.api.recipes.ingredients.InputIngredient;
-import mekanism.common.recipe.MekanismRecipeType;
-import mekanism.common.recipe.lookup.cache.AbstractInputRecipeCache;
 import mekanism.common.recipe.lookup.cache.type.IInputCache;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;

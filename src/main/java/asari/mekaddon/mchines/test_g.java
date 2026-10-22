@@ -143,7 +143,7 @@ public class test_g extends TileEntityProgressMachine<ItemStackToGasRecipe> impl
                 //.setOperatingTicksChanged(this::setOperatingTicks);
     }
     protected int getBaselineMaxOperations() {
-        return 114514;
+        return 64;
     }
 
 

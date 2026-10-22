@@ -1,6 +1,7 @@
 package asari.mekaddon.block;
 
 import asari.AAlang;
+import asari.mekaddon.config.AsariMekAddonConfig;
 import asari.mekaddon.mchines.AntiprotonicNucleosynthesize;
 import asari.mekaddon.mchines.test_g;
 import asari.mekaddon.reg.BlockContainer;
@@ -16,15 +17,15 @@ import mekanism.common.block.attribute.Attributes;
 import mekanism.common.config.MekanismConfig;
 import mekanism.common.content.blocktype.BlockShapes;
 
-import java.util.EnumSet;
+
 
 
 public class AAblocktypes {
         public static final AAmannger_machine<test_g> TEST_G = AAmannger_machine.AAMachineBuilder
                 .createAAMachine(() -> BlockType_entity.TEST_G, AAlang.TEST_G)
                 .withGui(() -> BlockContainer.TEST_G)
-                .withEnergyConfig(MekanismConfig.usage.chemicalCrystallizer,MekanismConfig.storage.chemicalCrystallizer)
-                .withSupportedUpgrades(java.util.EnumSet.of(Upgrade.ENERGY,Upgrade.SPEED))
+                .withEnergyConfig(AsariMekAddonConfig.USAGE.test_g,AsariMekAddonConfig.STORAGE.test_g)
+                .withSupportedUpgrades(java.util.EnumSet.of(Upgrade.ENERGY))
                 .withComputerSupport("test_g")
                 .replace(Attributes.ACTIVE_LIGHT)
                 .build();

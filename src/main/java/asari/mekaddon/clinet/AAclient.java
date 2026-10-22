@@ -6,7 +6,6 @@ import asari.mekaddon.clinet.menu.AntiprotonicNucleosynthesizeGui;
 import asari.mekaddon.reg.BlockContainer;
 import mekanism.client.ClientRegistrationUtil;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

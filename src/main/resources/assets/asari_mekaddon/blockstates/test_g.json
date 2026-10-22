@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "asari_mekaddon:block/test_g"
+    },
+    "facing=south": {
+      "model": "asari_mekaddon:block/test_g",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "asari_mekaddon:block/test_g",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "asari_mekaddon:block/test_g",
+      "y": -90
+    }
+  }
+}

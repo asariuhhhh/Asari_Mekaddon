@@ -2,17 +2,15 @@ package asari.mekaddon;
 //.\gradlew.bat runClient
 
 import asari.mekaddon.block.AAblocks;
-import asari.mekaddon.block.AAblocktypes;
-import asari.mekaddon.clinet.jei.AsariMekAddonJEIRecipeType;
+import asari.mekaddon.config.AsariMekAddonConfig;
 import asari.mekaddon.recipe.AsariMekAddonRecipeType;
-import asari.mekaddon.reg.AAmannger_machine;
 import asari.mekaddon.reg.AsariMekAddonSeri;
 import asari.mekaddon.reg.BlockContainer;
 import asari.mekaddon.reg.BlockType_entity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import static asari.mekaddon.AsariMekAddon.rl;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 
@@ -25,6 +23,7 @@ public class AsariMekAddon {
 
         IEventBus modEventBus =
                 FMLJavaModLoadingContext.get().getModEventBus();
+        AsariMekAddonConfig.registerConfigs(ModLoadingContext.get());
 
         ModGases.GASES.register(modEventBus);
         AAblocks.BLOCKS.register(modEventBus);

@@ -3,7 +3,6 @@ package asari.mekaddon.regg;
 import asari.mekaddon.recipe.AsariMekAddonRecipTypeProvider;
 import asari.mekaddon.recipe.AsariMekAddonRecipeType;
 import mekanism.api.recipes.MekanismRecipe;
-import mekanism.common.recipe.MekanismRecipeType;
 import mekanism.common.recipe.lookup.cache.IInputRecipeCache;
 import mekanism.common.registration.WrappedRegistryObject;
 import net.minecraftforge.registries.RegistryObject;

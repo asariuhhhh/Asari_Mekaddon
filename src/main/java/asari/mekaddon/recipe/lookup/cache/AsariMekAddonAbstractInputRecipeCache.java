@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import mekanism.api.recipes.ingredients.InputIngredient;
-import mekanism.common.recipe.MekanismRecipeType;
 import mekanism.common.recipe.lookup.cache.type.IInputCache;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;

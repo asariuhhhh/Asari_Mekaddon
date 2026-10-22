@@ -3,8 +3,6 @@ import mekanism.api.math.FloatingLong;
 import mekanism.api.chemical.gas.Gas;
 import mekanism.api.chemical.gas.GasBuilder;
 import mekanism.api.chemical.gas.attribute.GasAttributes;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.registries.DeferredRegister;
 import mekanism.api.MekanismAPI;
 import net.minecraftforge.registries.RegistryObject;

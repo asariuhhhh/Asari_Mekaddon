@@ -2,7 +2,6 @@ package asari.mekaddon.reg;
 
 import mekanism.api.Upgrade;
 import mekanism.api.text.ILangEntry;
-import mekanism.common.MekanismLang;
 import mekanism.common.block.attribute.AttributeParticleFX;
 import mekanism.common.block.attribute.AttributeStateFacing;
 import mekanism.common.block.attribute.AttributeUpgradeSupport;

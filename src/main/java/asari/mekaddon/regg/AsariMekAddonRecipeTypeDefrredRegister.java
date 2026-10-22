@@ -7,7 +7,7 @@ import mekanism.common.recipe.lookup.cache.IInputRecipeCache;
 import mekanism.common.registration.WrappedDeferredRegister;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.core.registries.Registries;
-import net.minecraftforge.registries.ForgeRegistries;
+
 
 import java.util.ArrayList;
 import java.util.Collections;

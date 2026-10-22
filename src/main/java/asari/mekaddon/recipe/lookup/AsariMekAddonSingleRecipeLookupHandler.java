@@ -2,16 +2,11 @@ package asari.mekaddon.recipe.lookup;
 
 import asari.mekaddon.recipe.lookup.cache.AsariMekAddonInputRecipeCache;
 import asari.mekaddon.recipe.lookup.cache.AsariMekAddonSingleInputRecipeCache;
-import mekanism.api.chemical.Chemical;
-import mekanism.api.chemical.ChemicalStack;
-import mekanism.api.chemical.gas.Gas;
 import mekanism.api.chemical.gas.GasStack;
 import mekanism.api.recipes.MekanismRecipe;
 import mekanism.api.recipes.inputs.IInputHandler;
-import mekanism.common.recipe.lookup.IRecipeLookupHandler;
 import mekanism.common.recipe.lookup.ISingleRecipeLookupHandler;
 import mekanism.common.recipe.lookup.cache.InputRecipeCache;
-import mekanism.common.util.ChemicalUtil;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 import org.jetbrains.annotations.Nullable;

@@ -1,10 +1,13 @@
 {
   "gas.asari_mekaddon.asari_gas": "Mixed supernova gas",
-  "gas.asari_mekaddon.anti_Radiation_gas": "Radiation-Canceling Gas",
   "gas.asari_mekaddon.step1_asari_gas": "hyper polonium",
   "gas.asari_mekaddon.anti_radiation_gas": "Radiation-neutralizing gas",
   "gas.asari_mekaddon.palladium_gas": "palladium",
   "gas.asari_mekaddon.step0_asari_gas": "Supernova Aether",
-  "block.asari_mekaddon.test_g": "Heavily modified chemical oxidizer",
-  "container.asari_mekaddon.test_g": "Heavily modified chemical oxidizer"
+  "block.asari_mekaddon.test_g": "Supermodified Chemical Oxidation",
+  "container.asari_mekaddon.test_g": "Supermodified Chemical Oxidation",
+  "description.asari_mekaddon.test_g" : "Ultra-high-performance oxidation unit capable of processing large volumes at once",
+  "block.asari_mekaddon.antiprotonicnucleosynthesize" : "anti solar neutron reactor(WIP)",
+  "container.asari_mekaddon.antiprotonicnucleosynthesize" : "anti solar neutron reactor(WIP)",
+  "description.asari_mekaddon.antiprotonicnucleosynthesize" : "It does not require sunlight, instead utilizing neutrons to trigger a specific type of energy reaction."
 }
