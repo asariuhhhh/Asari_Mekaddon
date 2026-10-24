@@ -9,5 +9,8 @@
   "description.asari_mekaddon.test_g" : "一度に大量処理する超高性能な酸化機",
   "block.asari_mekaddon.antiprotonicnucleosynthesize" : "陽太陽中性子反応機(WIP)",
   "container.asari_mekaddon.antiprotonicnucleosynthesize" : "陽太陽中性子反応機(WIP)",
-  "description.asari_mekaddon.antiprotonicnucleosynthesize" : "太陽の光を必要とせず、中性子を利用して特殊なエネルギー反応を引き起こす。"
+  "description.asari_mekaddon.antiprotonicnucleosynthesize" : "太陽の光を必要とせず、中性子を利用して特殊なエネルギー反応を引き起こす。",
+  "gas.asari_mekaddon.catalytically_activated_antimatter_gas" : "触媒活性化反物質ガス",
+  "item.asari_mekaddon.antimatter_crystal" : "反物質の結晶",
+  "infuse_type.asari_mekaddon.antimatter_infuse_gas" : "吹込み反物質"
 }

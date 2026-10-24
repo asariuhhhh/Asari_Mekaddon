@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 200,
+    "tag": "asari_mekaddon:antimatter_infuse_gas"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:solar_neutron_activator"
+    }
+  },
+  "output": {
+    "item": "asari_mekaddon:antiprotonicnucleosynthesize"
+  }
+}

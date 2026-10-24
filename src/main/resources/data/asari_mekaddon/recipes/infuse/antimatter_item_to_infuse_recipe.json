@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": {
+      "tag": "asari_mekaddon:antimatter_crystal"
+    }
+  },
+  "output": {
+    "amount": 20,
+    "infuse_type": "asari_mekaddon:antimatter_infuse_gas"
+  }
+}

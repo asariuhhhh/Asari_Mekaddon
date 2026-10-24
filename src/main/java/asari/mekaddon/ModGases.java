@@ -41,4 +41,8 @@ public class ModGases {
             GASES.register("palladium_gas",() ->
                     new Gas(GasBuilder.builder().tint(0xC0C0C0))
             );
+    public static final RegistryObject<Gas> CAA_GAS =
+            GASES.register("catalytically_activated_antimatter_gas",() ->
+                    new Gas(GasBuilder.builder().tint(0xE8D5F2))
+            );
 }

@@ -16,8 +16,7 @@ import mekanism.common.block.attribute.AttributeUpgradeSupport;
 import mekanism.common.block.attribute.Attributes;
 import mekanism.common.config.MekanismConfig;
 import mekanism.common.content.blocktype.BlockShapes;
-
-
+import mekanism.common.registries.MekanismSounds;
 
 
 public class AAblocktypes {
@@ -25,8 +24,9 @@ public class AAblocktypes {
                 .createAAMachine(() -> BlockType_entity.TEST_G, AAlang.TEST_G)
                 .withGui(() -> BlockContainer.TEST_G)
                 .withEnergyConfig(AsariMekAddonConfig.USAGE.test_g,AsariMekAddonConfig.STORAGE.test_g)
-                .withSupportedUpgrades(java.util.EnumSet.of(Upgrade.ENERGY))
+                .withSupportedUpgrades(java.util.EnumSet.of(Upgrade.ENERGY,Upgrade.MUFFLING))
                 .withComputerSupport("test_g")
+                .withSound(MekanismSounds.CHEMICAL_OXIDIZER)
                 .replace(Attributes.ACTIVE_LIGHT)
                 .build();
 

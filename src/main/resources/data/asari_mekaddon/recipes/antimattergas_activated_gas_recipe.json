@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "amount": 100,
+    "gas": "asari_mekaddon:palladium_gas"
+  },
+  "rightInput": {
+    "amount": 100,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "amount": 2,
+    "gas": "asari_mekaddon:catalytically_activated_antimatter_gas"
+  }
+}

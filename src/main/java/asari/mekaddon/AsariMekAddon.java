@@ -3,7 +3,9 @@ package asari.mekaddon;
 
 import asari.mekaddon.block.AAblocks;
 import asari.mekaddon.config.AsariMekAddonConfig;
+import asari.mekaddon.reg.AsariMekAddonItems;
 import asari.mekaddon.recipe.AsariMekAddonRecipeType;
+import asari.mekaddon.reg.AsariMekAddonInfusionType;
 import asari.mekaddon.reg.AsariMekAddonSeri;
 import asari.mekaddon.reg.BlockContainer;
 import asari.mekaddon.reg.BlockType_entity;
@@ -31,6 +33,8 @@ public class AsariMekAddon {
         BlockContainer.CONTAINER_TYPE.register(modEventBus);
         AsariMekAddonRecipeType.RECIPE_TYPES.register(modEventBus);
         AsariMekAddonSeri.RECIPE_SERIALIZERS.register(modEventBus);
+        AsariMekAddonInfusionType.INFUSE_TYPES.register(modEventBus);
+        AsariMekAddonItems.ITEMS.register(modEventBus);
 
     }
 

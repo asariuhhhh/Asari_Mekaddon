@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 200,
+    "gas": "asari_mekaddon:catalytically_activated_antimatter_gas"
+  },
+  "output": {
+    "item": "asari_mekaddon:antimatter_crystal"
+  }
+}

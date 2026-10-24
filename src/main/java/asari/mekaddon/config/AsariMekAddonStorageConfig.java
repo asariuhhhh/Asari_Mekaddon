@@ -17,7 +17,7 @@ public class AsariMekAddonStorageConfig extends BaseMekanismConfig {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
         builder.comment("Machine Energy Storage Config. This config is synced from server to client.").push("storage");
 
-        test_g = CachedFloatingLongValue.define(this,builder,"Base energy storage (Joules).","test_g", FloatingLong.createConst(2666_666));
+        test_g = CachedFloatingLongValue.define(this,builder,"Base energy storage (Joules).","test_g", FloatingLong.createConst(52666_666));
 
         builder.pop();
         configSpec = builder.build();

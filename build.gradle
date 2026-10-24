@@ -26,8 +26,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
 
             mods {
                 "${mod_id}" {
@@ -59,10 +58,6 @@ repositories {
         url = 'https://www.cursemaven.com'
     }
 
-    // Create
-    maven {
-        url = 'https://maven.createmod.net'
-    }
 
     // Registrate
     maven {
@@ -105,23 +100,6 @@ dependencies {
     //        "curse.maven:applied-energistics-2-223794:7148487"
    // )
   //  runtimeOnly "org.appliedenergistics:guideme:20.1.15"
-    implementation(fg.deobf(
-            "com.simibubi.create:create-${minecraft_version}:${create_version}:slim"
-    ) {
-        transitive = false
-    })
-
-    implementation(fg.deobf(
-            "net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}"
-    ))
-
-    compileOnly(fg.deobf(
-            "dev.engine-room.flywheel:flywheel-forge-api-${minecraft_version}:${flywheel_version}"
-    ))
-
-    runtimeOnly(fg.deobf(
-            "dev.engine-room.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}"
-    ))
 
     implementation(fg.deobf(
             "com.tterrag.registrate:Registrate:${registrate_version}"
